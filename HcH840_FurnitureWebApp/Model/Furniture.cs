@@ -9,9 +9,8 @@ namespace HcH840_FurnitureWebApp.Model
         {
             Mark = mark; Type = type; Year = year;
         } // with Furniture(); write classname.attributename ex: frt.Mark = ...
-        public void updateitem(string mark, string type,  string year)
-        {
-            this.Mark = mark; 
+        public void update(string type,  string year)
+        { 
             this.Type = type; 
             this.Year = year;
         }
