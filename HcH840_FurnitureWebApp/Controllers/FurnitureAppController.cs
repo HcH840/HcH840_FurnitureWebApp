@@ -6,12 +6,12 @@ namespace HcH840_FurnitureWebApp.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class FurnitureAppController : ControllerBase
+    public class FurnitureController : ControllerBase
     {
         public static List<Furniture> frts = new(); // create new Furniture Arraylist with <>
-        private readonly ILogger<FurnitureAppController> _logger;
+        private readonly ILogger<FurnitureController> _logger;
 
-        public FurnitureAppController(ILogger<FurnitureAppController> logger)
+        public FurnitureController(ILogger<FurnitureController> logger)
         {
             _logger = logger;
         }
